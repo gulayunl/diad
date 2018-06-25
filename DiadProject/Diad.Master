@@ -1,0 +1,202 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Diad.master.cs" Inherits="DiadProject.Diad" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendor/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/lightslider.min.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/main.css?v=17">
+    <link rel="stylesheet" href="assets/css/responsive.css?v=10">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="assets/vendor/nanoscroller/nanoscroller.css">
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="container">
+
+         <header class="bg-white">
+        <div class="top">
+            <div class="container">
+                <ul class="list-inline">
+                    <li><a href="" target="_blank"><img src="assets/img/icon-facebook.png"></a></li>
+                    <li><a href="" target="_blank"><img src="assets/img/icon-twitter.png"></a></li>
+                    <li><a href="" target="_blank"><img src="assets/img/icon-instagram.png"></a></li>
+                    <li>28 Mayıs 2018</li>
+                </ul>
+            </div><!-- .container -->
+        </div><!-- .top -->
+
+        <div class="container top-nav">
+            <div class="navbar navbar-default " role="navigation">
+
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="Default.aspx">
+                            <img src="assets/images/logo.png" alt="">
+                            <p>TÜRK DİPLOMATİK ARŞİVİ</p>
+                        </a>
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse text-right">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown-rootmenu active">
+                                <a href="Default.aspx">Ana Sayfa</a>
+                            </li>
+                            <li class="dropdown-rootmenu">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Bakanlığımız</a>
+
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-submenu">
+                                        <a href="">T.C. DIŞİŞLERİ BAKANI</a>
+                                    </li>
+                                </ul>
+
+                            </li>
+
+                            <li class="dropdown-rootmenu">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">HAKKIMIZDA</a>
+                            </li>
+
+                            <li class="dropdown-rootmenu">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">BİLGİ BANKASI</a>
+                            </li>
+
+                            <li class="dropdown-rootmenu">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="/Arsiv-Arastirma-Basvurusu.aspx" target="_blank">ARŞİVDE ARAŞTIRMA</a>
+                            </li>
+
+                            <li class="dropdown-rootmenu">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="Haberler.aspx">HABERLER</a>
+                            </li>
+
+                            <li class="dropdown-rootmenu">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">SSS</a>
+                            </li>
+
+                            <li class="dropdown-rootmenu">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">İLETİŞİM</a>
+
+                            </li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+
+           <footer id="footer">
+
+        <!--Footer Links-->
+        <div class="container text-md-left">
+            <div class="row">
+                <div class="col-md-3">
+                    <p class="column-title white-text"><strong>SİTE HARİTASI</strong></p>
+                    <ul class="list-unstyled">
+                        <li><a href="#">ANASAYFA</a> </li>
+                        <li><a href="#">BAKANLIĞIMIZ</a> </li>
+                        <li><a href="#">S.S.S</a> </li>
+
+                    </ul>
+                </div>
+                <!--/.First column-->
+                <hr class="visible-sm visible-xs clearfix">
+                <!--Second column-->
+                <div class="col-md-3">
+                    <p class="column-title white-text"><strong>HAKKIMIZDA</strong></p>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Bakan</a> </li>
+                        <li><a href="#">Tarihçe</a> </li>
+                        <li><a href="#">Görevimiz</a> </li>
+                        <li><a href="#">Galeri</a> </li>
+
+                    </ul>
+                </div>
+                <!--/.Second column-->
+                <hr class="visible-sm visible-xs clearfix">
+                <!--Third column-->
+                <div class="col-md-3">
+                    <p class="column-title white-text"><strong>ARŞİVDE ARAŞTIRMA</strong></p>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Ön Bilgi</a> </li>
+                        <li><a href="#">Araştırma Konuları</a> </li>
+                        <li><a href="#">Arşiv Araştırma Başvurusu</a> </li>
+
+                    </ul>
+                </div>
+                <!--/.Third column-->
+                <hr class="visible-sm visible-xs clearfix">
+                <!--Fourth column-->
+                <div class="col-md-3">
+                    <p class="column-title white-text"><strong>BİLGİ BANKASI</strong></p>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Kanun</a> </li>
+                        <li><a href="#">Yönetmelik</a> </li>
+                        <li><a href="#">Arşivde Araştırma Esasları</a> </li>
+
+                    </ul>
+                </div>
+                <!--/.Fourth column-->
+
+            </div>
+        </div>
+        <!--/.Footer Links-->
+        <div class="footer-copyright text-center">
+            <div class="container-fluid">
+                © 2018 Copyright:
+            </div>
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
+
+
+    </div>
+    </form>
+    
+    <script src="assets/vendor/jquery/jquery-3.1.1.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/lightslider.min.js"></script>
+
+    <script src="assets/js/flickity.pkd.min.js"></script>
+    <script src="assets/vendor/nanoscroller/jquery.nanoscroller.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('[id^=detail-]').hide();
+            $('.toggle .col-xs-2').click(function() {
+                $input = $( this ).closest('.toggle');
+                $target = $('#'+$input.attr('data-toggle'));
+                $target.slideToggle();
+                var indicator = $input.find('i');
+                indicator.toggleClass('fa-chevron-down fa-chevron-right');
+            });
+
+            var w = $(document).width();
+            if(w<768){
+                $('#list-collapse').removeClass('in');
+                $('.indicator').toggleClass('fa-chevron-down fa-chevron-right')
+            }
+        });
+    </script>
+</body>
+</html>

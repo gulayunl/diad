@@ -1,0 +1,70 @@
+﻿@font-face {
+    font-family: 'CorporateSLightTR';
+    src: url('../fonts/CorporateSLightTR.eot');
+    src: url('../fonts/CorporateSLightTR.eot?iefix') format('embedded-opentype'), url('../fonts/CorporateSLightTR.woff') format('woff'), url('../fonts/CorporateSLightTR.svg#CorporateSLightTR') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CorporateAConOM';
+    src: url('../fonts/CorporateAConOM.eot');
+    src: url('../fonts/CorporateAConOM.eot?iefix') format('embedded-opentype'), url('../fonts/CorporateAConOM.woff') format('woff'), url('../fonts/CorporateAConOM.svg#CorporateACon-Reg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CorporateSBoldTR';
+    src: url('../fonts/CorporateSBoldTR.eot');
+    src: url('../fonts/CorporateSBoldTR.eot?iefix') format('embedded-opentype'), url('../fonts/CorporateSBoldTR.woff') format('woff'), url('../fonts/CorporateSBoldTR.svg#CorporateSBoldTR') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CorporateSPro-Light';
+    src: url('../fonts/CorporateSPro-Light.eot');
+    src: url('../fonts/CorporateSPro-Light.eot?iefix') format('embedded-opentype'), url('../fonts/CorporateSPro-Light.woff') format('woff'), url('../fonts/CorporateSPro-Light.svg#CorporateSPro-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.printtable {width:760px;font-family:Arial;}
+        
+.campaigntable {width:100%;display:block;margin-bottom:15px;font-family:CorporateAConOM,Arial,sans-serif;font-size:15px;}
+.campaigntable.four .tablerow {width:calc(22%);float:left;padding:0 1%;border-left:1px solid #dedede;border-bottom:1px solid #dedede;color:#000;height:50px;display:table;text-align:center;}
+.campaigntable.four .tablerow span {display:table-cell;vertical-align:middle;}
+
+.campaigntable.five .tablerow {width:calc(17%);float:left;padding:0 1%;border-left:1px solid #dedede;border-bottom:1px solid #dedede;color:#000;height:50px;display:table;text-align:center;}
+.campaigntable.five .tablerow span {display:table-cell;vertical-align:middle;}
+
+.campaigntable.six .tablerow {width:calc(14.5%);float:left;padding:0 1%;border-left:1px solid #dedede;border-bottom:1px solid #dedede;color:#000;height:50px;display:table;text-align:center;}
+.campaigntable.six .tablerow span {display:table-cell;vertical-align:middle;}
+
+.campaigntable.seven .tablerow {width:calc(12%);float:left;padding:0 1%;border-left:1px solid #dedede;border-bottom:1px solid #dedede;color:#000;height:50px;display:table;text-align:center;}
+.campaigntable.seven .tablerow span {display:table-cell;vertical-align:middle;}
+
+.campaigntable.eight .tablerow {width:calc(10%);float:left;padding:0 1%;border-left:1px solid #dedede;border-bottom:1px solid #dedede;color:#000;height:50px;display:table;text-align:center;}
+.campaigntable.eight .tablerow span {display:table-cell;vertical-align:middle;}
+
+.campaigntable.nine .tablerow {width:calc(8.8%);float:left;padding:0 1%;border-left:1px solid #dedede;border-bottom:1px solid #dedede;color:#000;height:50px;display:table;text-align:center;}
+.campaigntable.nine .tablerow span {display:table-cell;vertical-align:middle;}
+
+.campaigntable.ten .tablerow {width:calc(7.8%);float:left;padding:0 1%;border-left:1px solid #dedede;border-bottom:1px solid #dedede;color:#000;height:50px;display:table;text-align:center;font-size:12px;}
+.campaigntable.ten .tablerow span {display:table-cell;vertical-align:middle;}
+
+.campaigntable.eleven .tablerow {width:calc(6.9%);float:left;padding:0 1%;border-left:1px solid #dedede;border-bottom:1px solid #dedede;color:#000;height:50px;display:table;text-align:center;font-size:12px;}
+.campaigntable.eleven .tablerow span {display:table-cell;vertical-align:middle;}
+
+.campaigntable.twelve .tablerow {width:calc(6.1%);float:left;padding:0 1%;border-left:1px solid #dedede;border-bottom:1px solid #dedede;color:#000;height:50px;display:table;text-align:center;font-size:11px;}
+.campaigntable.twelve .tablerow span {display:table-cell;vertical-align:middle;}
+
+.campaigntable.thirteen .tablerow {width:calc(5.69%);float:left;padding:0 1%;border-left:1px solid #dedede;border-bottom:1px solid #dedede;color:#000;height:50px;display:table;text-align:center;font-size:11px;}
+.campaigntable.thirteen .tablerow span {display:table-cell;vertical-align:middle;}
+
+.campaigntable .tablerow.head {color:#000;height:100px;text-align:center;border-top:1px solid #dedede;font-weight:bold;}
+.campaigntable .tablerow.last {border-right:1px solid #dedede;}
+.Diad{width:780px;margin-bottom:30px}.Diad .date{font-size:12px;text-align:left}.Diad .price{font-family:CorporateAConOM,Arial,sans-serif;font-size:26px;font-weight:700;width:780px;text-align:left}.Diad .text{width:650px;height:95px;float:left}.Diad .text .year{font-size:22px;color:#000;font-family:CorporateSPro-Light,Arial,sans-serif;margin-bottom:15px}.Diad .text .footerDiad{font-size:24px;color:#000;font-family:CorporateAConOM,Arial,sans-serif;font-weight:400}.Diad .text .slogan{font-size:12px;color:#000;font-family:CorporateSPro-Light,Arial,sans-serif}.Diad .logo{width:95px;height:95px;float:right}.clearfix{clear:both}
+.clearfix {height:0;clear:both;}
+ul.notes {margin: 0 0 30px 20px;padding:0;list-style:disc;}
+ul.notes li {float:left;width:100%;line-height:22px;}
+
+
+.printtitle {font-family: CorporateAConOM,Arial,sans-serif;font-size: 26px;font-weight: 700;width: 780px;text-align: left;margin-bottom:15px;}

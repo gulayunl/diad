@@ -1,0 +1,203 @@
+
+@media screen and (max-width: 767px) {
+    .margin-v-20-on-mobile{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .top-nav .navbar-brand {
+        max-width: 120px;
+        margin-top: -2px;
+    }
+
+    .top-nav .navbar-brand img{
+        max-width: 60px;
+        top: -5px;
+        left:auto;
+    }
+
+    .top-nav .navbar-brand p {
+        font-size: 12px;
+        margin-left: 63PX;
+        line-height: 12px;
+    }
+
+    .top-nav .navbar-nav{
+        width:100%;
+        margin-bottom: 5px;
+    }
+
+    .top-nav .navbar-nav>li{
+        /* padding: 10px 0; */
+    }
+
+
+    .top-nav .dropdown-menu:hover>.dropddown-submenu,
+    .top-nav .dropdown-submenu:hover>.dropdown-menu,
+    .top-nav .dropdown-rootmenu:hover>.dropdown-menu{
+        width:100%;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a{
+        color: white;
+    }
+    .home-sec-1 .carousel-main .caption P{
+        max-width: 100%;
+        padding: 10px;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+        border-color:transparent;
+    }
+    .bkk-block.hasan-cepni{
+        margin-top: 10px;
+    }
+    .home-sec-2{
+        padding-top:20px;
+        padding-bottom: 20px;
+    }
+    .home-sec-1 .tabs-container .nav-tabs{
+        /* height:116px; */
+    }
+    .home-sec-1 .tabs-container .nav-tabs LI{
+        /* width:50%; */
+    }
+
+
+
+}
+
+@media screen and (min-width: 768px) {
+
+    #content{
+        height:100%;
+
+    }
+
+
+
+
+    .top-nav .dropdown-rootmenu>.dropdown-menu{
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+        left:50%;
+    }
+
+    .top-nav .dropdown-rootmenu>.dropdown-submenu{
+        top:100%;
+        left:0;
+    }
+    .top-nav .dropdown-submenu>.dropdown-menu {
+        top: 0;
+        left: 100%;
+        margin-top: 0px;
+        margin-left: 0px;
+        /* box-shadow: none; */
+    }
+
+    .top-nav .navbar-nav>li{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .right-side{
+        margin-top: 40px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    #banner_holder a img{
+        max-width: 80px;
+    }
+
+    .top-nav .navbar-brand {
+        max-width: 120px;
+        margin-top: -2px;
+    }
+
+    .top-nav .navbar-brand img{
+        max-width: 60px;
+        top: -5px;
+        left:auto;
+    }
+
+    .top-nav .navbar-brand p {
+        font-size: 10px;
+        margin-left: 68PX;
+        line-height: 12px;
+        margin-top: 0;
+    }
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block !important;;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+    .hasan-cepni{
+        height:200px;
+        margin-top: 10px;
+    }
+
+
+}
+
+@media screen and (min-width: 992px){
+    .top-nav .navbar-nav>li>a{
+        font-size: 12px;
+    }
+    .carousel-indicators {
+        top: 20px;
+        bottom: auto;
+    }
+}
+
+@media screen and (max-width: 535px){
+    #banner_holder a img{
+        max-width: 60px;
+    }
+    .carousel-additional a{
+        display: block;
+        width:40px;
+
+    }
+    .carousel-additional a:before{
+        content: 'Tümü';
+    }
+
+}
+@media screen and (min-width: 1200px) {
+    .carousel-additional a{
+        display: block;
+    }
+    .carousel-additional a:before{
+        content: 'Haber Arsivi';
+    }
+}
